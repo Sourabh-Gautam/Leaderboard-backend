@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: leaderboard-demo
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      leaderboard: web
+  template:
+    metadata:
+      labels:
+        leaderboard: web
+    spec:
+      containers:
+        - name: leaderboard-service
+          image: divyamsethi/leaderboard-service
+          imagePullPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: leaderboard-service
+  namespace: default
+spec:
+  type: NodePort
+  selector:
+    leaderboard: web
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 30003

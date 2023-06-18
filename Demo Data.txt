@@ -1,0 +1,88 @@
+------------Contributor Types-----------------
+
+INSERT INTO "public"."contributor_type" VALUES (1 , 'Winner', 100);
+INSERT INTO "public"."contributor_type" VALUES (2 , 'Runner', 80);
+INSERT INTO "public"."contributor_type" VALUES (3 , 'Organizer', 50);
+INSERT INTO "public"."contributor_type" VALUES (4 , 'Participant', 30);
+
+-------------------Skills----------------------
+
+INSERT INTO "public"."skills" VALUES (1 , 'Java');
+INSERT INTO "public"."skills" VALUES (2 , 'Python');
+INSERT INTO "public"."skills" VALUES (3 , 'C++');
+INSERT INTO "public"."skills" VALUES (4 , 'GoLang');
+
+-----------------Sub Skills---------------------
+
+INSERT INTO "public"."sub_skill" VALUES (1 , 'AWS');
+INSERT INTO "public"."sub_skill" VALUES (2 , 'Spring Boot');
+INSERT INTO "public"."sub_skill" VALUES (3 , 'HTML');
+INSERT INTO "public"."sub_skill" VALUES (4 , 'Junit5');
+INSERT INTO "public"."sub_skill" VALUES (5 , 'SQL');
+INSERT INTO "public"."sub_skill" VALUES (6 , 'Core Java');
+INSERT INTO "public"."sub_skill" VALUES (7 , 'Mockito');
+INSERT INTO "public"."sub_skill" VALUES (8 , 'Angular');
+INSERT INTO "public"."sub_skill" VALUES (9 , 'React JS');
+INSERT INTO "public"."sub_skill" VALUES (10 ,'JPA Hibernate');
+INSERT INTO "public"."sub_skill" VALUES (11, 'Apache Maven');
+INSERT INTO "public"."sub_skill" VALUES (12 ,'Spring Cloud Gateway');
+INSERT INTO "public"."sub_skill" VALUES (13 ,'Microservices');
+
+---------------Resource Managers--------------------
+
+INSERT INTO "public"."resource_manager" VALUES (1 , 'Piyush Priyadarshi');
+INSERT INTO "public"."resource_manager" VALUES (2 , 'Durga Adimulam');
+INSERT INTO "public"."resource_manager" VALUES (3 , 'Shakti Vyas');
+INSERT INTO "public"."resource_manager" VALUES (4 , 'Emmanuel Gosula');
+INSERT INTO "public"."resource_manager" VALUES (5 , 'Shanthikumar Chilumula');
+INSERT INTO "public"."resource_manager" VALUES (6 , 'Ravikishore Chayanam');
+
+--------------Business Units----------------------
+
+INSERT INTO "public"."business_unit" VALUES (1 , 'HCLS Delivery');
+INSERT INTO "public"."business_unit" VALUES (2 , 'Telecommunications');
+INSERT INTO "public"."business_unit" VALUES (3 , 'India Delivery Operations');
+INSERT INTO "public"."business_unit" VALUES (4 , 'Travel & Hospitality');
+
+----------------Designation-------------------------
+
+INSERT INTO "public"."designation" VALUES (1 , 'Junior Software Engineer');
+INSERT INTO "public"."designation" VALUES (2 , 'Software Engineer');
+INSERT INTO "public"."designation" VALUES (3 , 'Senior Software Engineer');
+INSERT INTO "public"."designation" VALUES (4 , 'Lead Software Engineer');
+
+--------------Program Template----------------------
+
+INSERT INTO "public"."program_template" VALUES (1 , 'Tech Talk', 'The goal of Tech Talks is to provide best practices and applications insights, help you stay up to date about innovations.', 500);
+INSERT INTO "public"."program_template" VALUES (2 , 'DSA', 'Different approaches to problem solving using Data Structures and Algorithms', 300);
+INSERT INTO "public"."program_template" VALUES (3 , 'Advanced Java', 'Topics in Advanced java', 300);
+
+------------------Program-----------------------------
+
+INSERT INTO "public"."program" VALUES (1 , 'Bhargavi', 'DSA', '2023-03-21 11:35:23.428687', 'Problem Solving using Stacks and Queues', '2023-04-18', '2023-02-24', 'Stacks & Queues', 200 );
+INSERT INTO "public"."program" VALUES (2 , 'Sneka', 'Tech Talk', '2023-03-30 12:36:23.428687', 'Current Trends in Robotics', '2023-03-28', '2023-03-15', 'Robotics', 250 );
+INSERT INTO "public"."program" VALUES (3 , 'Sourabh', 'Advanced Java', '2023-04-01 09:18:23.428687', 'Java Database Connectivity to connect and execute the query with database', '2023-04-20', '2023-01-31', 'JDBC', 300 );
+INSERT INTO "public"."program" VALUES (4 , 'Divyam', 'DSA', '2023-03-08 11:15:23.428687', 'Problem Solving using Algorithms', '2023-04-25', '2023-03-10', 'Algorithms', 200 );
+
+------------------User Profiles------------------------
+
+INSERT INTO "public"."user_profiles" VALUES (1 , 'HCLS Delivery', '2023-03-24', 'Junior Software Engineer', 'pranav@epam.com', false, 'Pranavanath Margala', 'Java', 'Shakti Vyas', ARRAY['Spring Boot', 'Apache Maven']);
+INSERT INTO "public"."user_profiles" VALUES (2 , 'Telecommunications', '2023-03-24', 'Software Engineer', 'sneka@epam.com', false, 'Sneka P', 'Python', 'Durga Adimulam', ARRAY['HTML', 'React JS']);
+INSERT INTO "public"."user_profiles" VALUES (3 , 'India Delivery Operations', '2023-03-24', 'Senior Software Engineer', 'bhargavi@epam.com', true, 'Bhargavi Velugonda', 'Java', 'Piyush Priyadarshi', ARRAY['Spring Boot', 'AWS', 'Mockito']);
+INSERT INTO "public"."user_profiles" VALUES (4 , 'India Delivery Operations', '2023-03-24', 'Software Engineer', 'sourabh@epam.com', false, 'Sourabh Gautam', 'Java', 'Emmanuel Gosula', ARRAY['Angular','SQL']);
+INSERT INTO "public"."user_profiles" VALUES (5 , 'Travel & Hospitality', '2023-03-24', 'Lead Software Engineer', 'sushmitha@epam.com', true, 'Sushmitha Gudishetty', 'C++', 'Shanthikumar Chilumula', ARRAY['React JS', 'AWS']);
+INSERT INTO "public"."user_profiles" VALUES (6 , 'Telecommunications', '2023-04-05', 'Senior Software Engineer', 'arun@epam.com', false, 'Arun Jha', 'Python', 'Ravikishore Chayanam', ARRAY['SQL', 'HTML', 'Angular']);
+INSERT INTO "public"."user_profiles" VALUES (7 , 'HCLS Delivery', '2023-04-05', 'Senior Software Engineer', 'hemanth@epam.com', false, 'Hemanth Vinnakota', 'Python', 'Shakti Vyas', ARRAY['Angular', 'SQL']);
+INSERT INTO "public"."user_profiles" VALUES (8 , 'HCLS Delivery', '2023-04-05', 'Software Engineer', 'rama@epam.com', false, 'Rama Karri', 'Java', 'Durga Adimulam', ARRAY['Spring Cloud Gateway', 'Microservices', 'Junit5']);
+INSERT INTO "public"."user_profiles" VALUES (9 , 'Travel & Hospitality', '2023-04-05', 'Junior Software Engineer', 'divyam@epam.com', false, 'Divyam Sethi', 'GoLang', 'Piyush Priyadarshi', ARRAY['Spring Boot', 'AWS']);
+INSERT INTO "public"."user_profiles" VALUES (10 , 'Telecommunications', '2023-04-18', 'Junior Software Engineer', 'abhinav@epam.com', true, 'Abhinav Kesavarapu', 'C++', 'Emmanuel Gosula', ARRAY['AWS']);
+INSERT INTO "public"."user_profiles" VALUES (11, 'HCLS Delivery', '2023-04-18', 'Lead Software Engineer', 'piyush@epam.com', false, 'Piyush Bhatia', 'Java', 'Shakti Vyas', ARRAY['Core Java', 'Spring Cloud Gateway']);
+INSERT INTO "public"."user_profiles" VALUES (12, 'India Delivery Operations', '2023-04-18', 'Senior Software Engineer', 'robinsh@epam.com', false, 'Robinsh Kumar', 'Python', 'Ravikishore Chayanam', ARRAY['Angular', 'Microservices']);
+INSERT INTO "public"."user_profiles" VALUES (13, 'HCLS Delivery', '2023-04-18', 'Junior Software Engineer', 'pavan@epam.com', false, 'Pavan Alapati', 'Java', 'Piyush Priyadarshi', ARRAY['Junit5', 'Spring Boot']);
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: profile-demo
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      program: web
+  template:
+    metadata:
+      labels:
+        program: web
+    spec:
+      containers:
+        - name: profileimage
+          image: divyamsethi/profile-service
+          imagePullPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: profile-service
+  namespace: default
+spec:
+  type: NodePort
+  selector:
+    program: web
+  ports:
+    - port: 8081
+      targetPort: 8081
+      nodePort: 30002

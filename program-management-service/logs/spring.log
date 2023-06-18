@@ -1,0 +1,646 @@
+2023-04-26 15:06:56 INFO  [main] c.e.p.c.ContributorTypeControllerTest - Starting ContributorTypeControllerTest using Java 17.0.4.1 with PID 9360 (started by Sourabh_Gautam in D:\Leaderboard\program-management-service)
+2023-04-26 15:06:56 INFO  [main] c.e.p.c.ContributorTypeControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:07:02 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-26 15:07:02 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-26 15:07:02 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2023-04-26 15:07:02 INFO  [main] c.e.p.c.ContributorTypeControllerTest - Started ContributorTypeControllerTest in 8.761 seconds (process running for 15.878)
+2023-04-26 15:07:03 INFO  [main] c.e.p.c.ContributorTypeController - Display all the ContributorTypes
+2023-04-26 15:07:03 INFO  [main] c.e.p.c.ContributorTypeController - ContributorType Details for the contributorType id 1
+2023-04-26 15:07:03 INFO  [main] c.e.p.c.ContributorTypeController - Delete ContributorType with contributorType id 1
+2023-04-26 15:07:03 INFO  [main] c.e.p.c.ContributorTypeController - Creating a ContributorType with the details com.epam.programmanagement.dto.ContributorTypeDto@efbc6a1
+2023-04-26 15:07:03 INFO  [main] c.e.p.c.ContributorTypeController - Update ContributorType with contributorType id 1com.epam.programmanagement.dto.ContributorTypeDto@50fd7d94
+2023-04-26 15:07:04 INFO  [main] c.e.p.c.ParticipantContributionControllerTest - Starting ParticipantContributionControllerTest using Java 17.0.4.1 with PID 9360 (started by Sourabh_Gautam in D:\Leaderboard\program-management-service)
+2023-04-26 15:07:04 INFO  [main] c.e.p.c.ParticipantContributionControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:07:05 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-26 15:07:05 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-26 15:07:05 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2023-04-26 15:07:05 INFO  [main] c.e.p.c.ParticipantContributionControllerTest - Started ParticipantContributionControllerTest in 1.636 seconds (process running for 18.74)
+2023-04-26 15:07:05 INFO  [main] c.e.p.c.ParticipantContributionController - Business Unit: HCLS Delivery
+2023-04-26 15:07:05 INFO  [main] c.e.p.c.ParticipantContributionController - Primary Skill: Java
+2023-04-26 15:07:05 INFO  [main] c.e.p.c.ParticipantContributionController - Resource Managar: Shakti Vyas
+2023-04-26 15:07:05 INFO  [main] c.e.p.c.ParticipantContributionController - designation: Junior Software Engineer
+2023-04-26 15:07:05 INFO  [main] c.e.p.c.ParticipantContributionController - email: sneka
+2023-04-26 15:07:05 INFO  [main] c.e.p.c.ParticipantContributionController - year: 2023
+2023-04-26 15:07:06 INFO  [main] c.e.p.c.ParticipantControllerTest - Starting ParticipantControllerTest using Java 17.0.4.1 with PID 9360 (started by Sourabh_Gautam in D:\Leaderboard\program-management-service)
+2023-04-26 15:07:06 INFO  [main] c.e.p.c.ParticipantControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:07:07 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-26 15:07:07 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-26 15:07:07 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2023-04-26 15:07:07 INFO  [main] c.e.p.c.ParticipantControllerTest - Started ParticipantControllerTest in 1.566 seconds (process running for 20.569)
+2023-04-26 15:07:07 INFO  [main] c.e.p.c.ParticipantsController - Display all the programs 2
+2023-04-26 15:07:07 INFO  [main] c.e.p.c.ParticipantsController - delete the participant 2 12
+2023-04-26 15:07:07 INFO  [main] c.e.p.c.ParticipantsController - create the participant 2 ParticipantDto(participantId=2, participantName=sneka, contributorType=null, designation=null, program=[Program [programId=2, category=null, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:07:07.574087500]], points=14, addedBy=Alex, awardedDate=null, lastModifiedAt=null, resourceManager=null, businessUnit=null, primarySkill=null, subSkill=null, email=null)
+2023-04-26 15:07:07 INFO  [main] c.e.p.c.ParticipantsController - Display all the Participant baesd on id 2
+2023-04-26 15:07:07 INFO  [main] c.e.p.c.ParticipantsController - update the participant 2 12
+2023-04-26 15:07:07 INFO  [main] c.e.p.c.ParticipantsController - My Dto ParticipantDto(participantId=2, participantName=sneka, contributorType=null, designation=null, program=[Program [programId=2, category=null, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:07:07.766572200]], points=14, addedBy=Alex, awardedDate=null, lastModifiedAt=null, resourceManager=null, businessUnit=null, primarySkill=null, subSkill=null, email=null)
+2023-04-26 15:07:07 INFO  [main] c.e.p.c.ProgramControllerTest - Starting ProgramControllerTest using Java 17.0.4.1 with PID 9360 (started by Sourabh_Gautam in D:\Leaderboard\program-management-service)
+2023-04-26 15:07:07 INFO  [main] c.e.p.c.ProgramControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:07:08 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-26 15:07:08 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-26 15:07:08 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023-04-26 15:07:09 INFO  [main] c.e.p.c.ProgramControllerTest - Started ProgramControllerTest in 1.19 seconds (process running for 22.115)
+2023-04-26 15:07:09 INFO  [main] c.e.p.controller.ProgramController - Program Details for the program id 1
+2023-04-26 15:07:09 INFO  [main] c.e.p.controller.ProgramController - Display all the Programs
+2023-04-26 15:07:09 INFO  [main] c.e.p.controller.ProgramController - Update Program with program id 1ProgramDto(programId=2, category=Incubation, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:07:09.104840300, participant=null)
+2023-04-26 15:07:09 INFO  [main] c.e.p.controller.ProgramController - Delete Program with program id 1
+2023-04-26 15:07:09 INFO  [main] c.e.p.controller.ProgramController - Creating a Program with the details ProgramDto(programId=2, category=Incubation, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:07:09.378322, participant=null)
+2023-04-26 15:07:09 INFO  [main] c.e.p.controller.ProgramTemplateTest - Starting ProgramTemplateTest using Java 17.0.4.1 with PID 9360 (started by Sourabh_Gautam in D:\Leaderboard\program-management-service)
+2023-04-26 15:07:09 INFO  [main] c.e.p.controller.ProgramTemplateTest - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:07:10 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-26 15:07:10 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-26 15:07:10 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023-04-26 15:07:10 INFO  [main] c.e.p.controller.ProgramTemplateTest - Started ProgramTemplateTest in 1.228 seconds (process running for 23.774)
+2023-04-26 15:07:10 INFO  [main] c.e.p.c.ProgramTemplateController - Display all the Programs
+2023-04-26 15:07:10 INFO  [main] c.e.p.c.ProgramTemplateController - Creating a Program with the details com.epam.programmanagement.dto.ProgramTemplateDto@7ab7a4eb
+2023-04-26 15:07:10 INFO  [main] c.e.p.c.ProgramTemplateController - Update ProgramTemplate with programtemplate id 1com.epam.programmanagement.dto.ProgramTemplateDto@16e17e6b
+2023-04-26 15:07:10 INFO  [main] c.e.p.c.ProgramTemplateController - Delete Program with program id 1
+2023-04-26 15:07:11 INFO  [main] c.e.p.c.ProgramTemplateController - programTemplate Details for the programTemplate id 1
+2023-04-26 15:07:11 INFO  [main] c.e.p.service.ContributorTypeService - Display all the programs
+2023-04-26 15:07:11 INFO  [main] c.e.p.service.ContributorTypeService - ContributorType Details for the contributor id 1
+2023-04-26 15:07:11 INFO  [main] c.e.p.service.ContributorTypeService - ContributorType Details for the contributor id 10
+2023-04-26 15:07:11 INFO  [main] c.e.p.service.ContributorTypeService - Creating a ContributorType with the details com.epam.programmanagement.dto.ContributorTypeDto@4baca539
+2023-04-26 15:07:11 INFO  [main] c.e.p.service.ContributorTypeService - Delete ContributorType with contributor id 100
+2023-04-26 15:07:11 INFO  [main] c.e.p.service.ContributorTypeService - Delete ContributorType with contributor id 1
+2023-04-26 15:07:11 INFO  [main] c.e.p.service.ContributorTypeService - Update ContributorType with contributor id 100com.epam.programmanagement.dto.ContributorTypeDto@253bf220
+2023-04-26 15:07:11 INFO  [main] c.e.p.service.ContributorTypeService - Update ContributorType with contributor id 2com.epam.programmanagement.dto.ContributorTypeDto@2f41798d
+2023-04-26 15:07:11 INFO  [main] c.e.p.service.ContributorTypeService - Display all the programs
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - designation Junior Software Engineer
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - get the program 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - delete participant based on id 1 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - get the program 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - delete participant based on id 2 2
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - get the program 2
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - dispaly participant based on id 1 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - get the program 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - dispaly participant based on id 2 2
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - get the program 2
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - Business unit HCLS DElivery
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - Primary skill Java
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - Resource manager Shakti Vyas
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - get the program 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - Create the participant ParticipantDto(participantId=1, participantName=sneka, contributorType=winner, designation=null, program=[Program [programId=1, category=null, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:07:12.332166]], points=3, addedBy=sneka, awardedDate=null, lastModifiedAt=null, resourceManager=null, businessUnit=null, primarySkill=null, subSkill=null, email=null) 
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - Contributor type winner
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - Display all the Participants 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - update participant based on id 1 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - ParticipantDto(participantId=1, participantName=sneka, contributorType=winner, designation=null, program=[Program [programId=1, category=null, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:07:12.368898500]], points=3, addedBy=sneka, awardedDate=null, lastModifiedAt=null, resourceManager=null, businessUnit=null, primarySkill=null, subSkill=null, email=null)
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - get the program 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - update participant based on id 2 2
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - ParticipantDto(participantId=1, participantName=sneka, contributorType=winner, designation=null, program=[Program [programId=1, category=null, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:07:12.368898500]], points=3, addedBy=sneka, awardedDate=null, lastModifiedAt=null, resourceManager=null, businessUnit=null, primarySkill=null, subSkill=null, email=null)
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ParticipantService - get the program 2
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramService - Program Details for the program id 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramService - Display all the programs
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramService - Update Program with program id 100ProgramDto(programId=2, category=Incubation, title=null, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=null, participant=null)
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramService - Update Program with program id 2ProgramDto(programId=2, category=Incubation, title=null, description=DataStructures, addedBy=Alex, startDate=null, endDate=null, weightage=15, createdAt=null, participant=null)
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramService - Delete Program with program id 100
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramService - Delete Program with program id 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramService - Creating a Program with the details ProgramDto(programId=2, category=Incubation, title=null, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=null, participant=null)
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramService - Program Details for the program id 10
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramService - Display all the programs
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramTemplateService - Display all the programTemplate
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramTemplateService - Display all the programTemplate
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramTemplateService - Creating a ProgramTemplate with the details com.epam.programmanagement.dto.ProgramTemplateDto@417a5aab
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramTemplateService - ProgramTemplate Details for the programTemplate id 10
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramTemplateService - Delete Program with program id 100
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramTemplateService - Delete Program with program id 1
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramTemplateService - Update Program with program id 100com.epam.programmanagement.dto.ProgramTemplateDto@d74f68e
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramTemplateService - Update Program with program id 2com.epam.programmanagement.dto.ProgramTemplateDto@418287ac
+2023-04-26 15:07:12 INFO  [main] c.e.p.service.ProgramTemplateService - ProgramTemplate Details for the programTemplate id 1
+2023-04-26 15:46:21 INFO  [restartedMain] c.e.p.ProgramManagement - Starting ProgramManagement using Java 19 with PID 20420 (D:\Leaderboard\program-management-service\target\classes started by Divyam_Sethi in D:\Leaderboard\program-management-service)
+2023-04-26 15:46:21 INFO  [restartedMain] c.e.p.ProgramManagement - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:46:21 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 15:46:21 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 15:46:22 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 15:46:22 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87 ms. Found 4 JPA repository interfaces.
+2023-04-26 15:46:23 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-04-26 15:46:23 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-26 15:46:23 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-26 15:46:23 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-26 15:46:23 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1668 ms
+2023-04-26 15:46:23 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 15:46:23 INFO  [restartedMain] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-26 15:46:23 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-04-26 15:46:24 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-26 15:46:24 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b59a317
+2023-04-26 15:46:24 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-26 15:46:24 INFO  [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 15:46:25 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 15:46:25 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 15:46:26 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-26 15:46:27 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-04-26 15:46:27 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2023-04-26 15:46:27 INFO  [restartedMain] c.e.p.ProgramManagement - Started ProgramManagement in 6.281 seconds (process running for 7.08)
+2023-04-26 15:47:12 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 36 class path changes (0 additions, 0 deletions, 36 modifications)
+2023-04-26 15:47:12 INFO  [Thread-5] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-26 15:47:12 INFO  [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 15:47:12 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-26 15:47:12 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-04-26 15:47:12 INFO  [restartedMain] c.e.p.ProgramManagement - Starting ProgramManagement using Java 19 with PID 20420 (D:\Leaderboard\program-management-service\target\classes started by Divyam_Sethi in D:\Leaderboard\program-management-service)
+2023-04-26 15:47:12 INFO  [restartedMain] c.e.p.ProgramManagement - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:47:12 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 15:47:12 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2023-04-26 15:47:13 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-04-26 15:47:13 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-26 15:47:13 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-26 15:47:13 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-26 15:47:13 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 749 ms
+2023-04-26 15:47:13 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 15:47:13 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-04-26 15:47:13 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2023-04-26 15:47:13 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@1f4b76ad
+2023-04-26 15:47:13 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2023-04-26 15:47:13 INFO  [restartedMain] SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 15:47:13 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 15:47:13 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 15:47:13 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-26 15:47:15 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-04-26 15:47:15 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2023-04-26 15:47:15 INFO  [restartedMain] c.e.p.ProgramManagement - Started ProgramManagement in 2.765 seconds (process running for 54.529)
+2023-04-26 15:47:15 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-04-26 15:47:21 INFO  [main] c.e.p.c.ContributorTypeControllerTest - Starting ContributorTypeControllerTest using Java 19 with PID 10464 (started by Divyam_Sethi in D:\Leaderboard\program-management-service)
+2023-04-26 15:47:21 INFO  [main] c.e.p.c.ContributorTypeControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:47:26 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-26 15:47:26 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-26 15:47:26 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 8 ms
+2023-04-26 15:47:26 INFO  [main] c.e.p.c.ContributorTypeControllerTest - Started ContributorTypeControllerTest in 5.423 seconds (process running for 9.605)
+2023-04-26 15:47:26 INFO  [main] c.e.p.c.ContributorTypeController - Display all the ContributorTypes
+2023-04-26 15:47:26 INFO  [main] c.e.p.c.ContributorTypeController - ContributorType Details for the contributorType id 1
+2023-04-26 15:47:26 INFO  [main] c.e.p.c.ContributorTypeController - Delete ContributorType with contributorType id 1
+2023-04-26 15:47:26 INFO  [main] c.e.p.c.ContributorTypeController - Creating a ContributorType with the details com.epam.programmanagement.dto.ContributorTypeDto@4fc41cba
+2023-04-26 15:47:26 INFO  [main] c.e.p.c.ContributorTypeController - Update ContributorType with contributorType id 1com.epam.programmanagement.dto.ContributorTypeDto@484f7fad
+2023-04-26 15:47:27 INFO  [main] c.e.p.c.ParticipantContributionControllerTest - Starting ParticipantContributionControllerTest using Java 19 with PID 10464 (started by Divyam_Sethi in D:\Leaderboard\program-management-service)
+2023-04-26 15:47:27 INFO  [main] c.e.p.c.ParticipantContributionControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:47:28 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-26 15:47:28 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-26 15:47:28 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2023-04-26 15:47:28 INFO  [main] c.e.p.c.ParticipantContributionControllerTest - Started ParticipantContributionControllerTest in 1.041 seconds (process running for 11.551)
+2023-04-26 15:47:28 INFO  [main] c.e.p.c.ParticipantContributionController - Business Unit: HCLS Delivery
+2023-04-26 15:47:28 INFO  [main] c.e.p.c.ParticipantContributionController - Primary Skill: Java
+2023-04-26 15:47:28 INFO  [main] c.e.p.c.ParticipantContributionController - Resource Managar: Shakti Vyas
+2023-04-26 15:47:28 INFO  [main] c.e.p.c.ParticipantContributionController - designation: Junior Software Engineer
+2023-04-26 15:47:28 INFO  [main] c.e.p.c.ParticipantContributionController - email: sneka
+2023-04-26 15:47:28 INFO  [main] c.e.p.c.ParticipantContributionController - year: 2023
+2023-04-26 15:47:28 INFO  [main] c.e.p.c.ParticipantControllerTest - Starting ParticipantControllerTest using Java 19 with PID 10464 (started by Divyam_Sethi in D:\Leaderboard\program-management-service)
+2023-04-26 15:47:28 INFO  [main] c.e.p.c.ParticipantControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:47:29 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-26 15:47:29 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-26 15:47:29 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-04-26 15:47:29 INFO  [main] c.e.p.c.ParticipantControllerTest - Started ParticipantControllerTest in 0.929 seconds (process running for 12.685)
+2023-04-26 15:47:29 INFO  [main] c.e.p.c.ParticipantsController - Display all the programs 2
+2023-04-26 15:47:29 INFO  [main] c.e.p.c.ParticipantsController - delete the participant 2 12
+2023-04-26 15:47:29 INFO  [main] c.e.p.c.ParticipantsController - create the participant 2 ParticipantDto(participantId=2, participantName=sneka, contributorType=null, designation=null, program=[Program [programId=2, category=null, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:47:29.293348200]], points=14, addedBy=Alex, awardedDate=null, lastModifiedAt=null, resourceManager=null, businessUnit=null, primarySkill=null, subSkill=null, email=null)
+2023-04-26 15:47:29 INFO  [main] c.e.p.c.ParticipantsController - Display all the Participant baesd on id 2
+2023-04-26 15:47:29 INFO  [main] c.e.p.c.ParticipantsController - update the participant 2 12
+2023-04-26 15:47:29 INFO  [main] c.e.p.c.ParticipantsController - My Dto ParticipantDto(participantId=2, participantName=sneka, contributorType=null, designation=null, program=[Program [programId=2, category=null, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:47:29.408539100]], points=14, addedBy=Alex, awardedDate=null, lastModifiedAt=null, resourceManager=null, businessUnit=null, primarySkill=null, subSkill=null, email=null)
+2023-04-26 15:47:29 INFO  [main] c.e.p.c.ProgramControllerTest - Starting ProgramControllerTest using Java 19 with PID 10464 (started by Divyam_Sethi in D:\Leaderboard\program-management-service)
+2023-04-26 15:47:29 INFO  [main] c.e.p.c.ProgramControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:47:30 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-26 15:47:30 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-26 15:47:30 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 13 ms
+2023-04-26 15:47:30 INFO  [main] c.e.p.c.ProgramControllerTest - Started ProgramControllerTest in 0.78 seconds (process running for 13.736)
+2023-04-26 15:47:30 INFO  [main] c.e.p.controller.ProgramController - Program Details for the program id 1
+2023-04-26 15:47:30 INFO  [main] c.e.p.controller.ProgramController - Display all the Programs
+2023-04-26 15:47:30 INFO  [main] c.e.p.controller.ProgramController - Update Program with program id 1ProgramDto(programId=2, category=Incubation, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:47:30.324967400, participant=null)
+2023-04-26 15:47:30 INFO  [main] c.e.p.controller.ProgramController - Delete Program with program id 1
+2023-04-26 15:47:30 INFO  [main] c.e.p.controller.ProgramController - Creating a Program with the details ProgramDto(programId=2, category=Incubation, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:47:30.555650600, participant=null)
+2023-04-26 15:47:30 INFO  [main] c.e.p.controller.ProgramTemplateTest - Starting ProgramTemplateTest using Java 19 with PID 10464 (started by Divyam_Sethi in D:\Leaderboard\program-management-service)
+2023-04-26 15:47:30 INFO  [main] c.e.p.controller.ProgramTemplateTest - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:47:31 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-04-26 15:47:31 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-04-26 15:47:31 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2023-04-26 15:47:31 INFO  [main] c.e.p.controller.ProgramTemplateTest - Started ProgramTemplateTest in 0.725 seconds (process running for 14.816)
+2023-04-26 15:47:31 INFO  [main] c.e.p.c.ProgramTemplateController - Display all the Programs
+2023-04-26 15:47:31 INFO  [main] c.e.p.c.ProgramTemplateController - Creating a Program with the details com.epam.programmanagement.dto.ProgramTemplateDto@6df06d21
+2023-04-26 15:47:31 INFO  [main] c.e.p.c.ProgramTemplateController - Update ProgramTemplate with programtemplate id 1com.epam.programmanagement.dto.ProgramTemplateDto@59ea4ca5
+2023-04-26 15:47:31 INFO  [main] c.e.p.c.ProgramTemplateController - Delete Program with program id 1
+2023-04-26 15:47:31 INFO  [main] c.e.p.c.ProgramTemplateController - programTemplate Details for the programTemplate id 1
+2023-04-26 15:47:31 INFO  [main] c.e.p.service.ContributorTypeService - Display all the programs
+2023-04-26 15:47:31 INFO  [main] c.e.p.service.ContributorTypeService - ContributorType Details for the contributor id 1
+2023-04-26 15:47:31 INFO  [main] c.e.p.service.ContributorTypeService - ContributorType Details for the contributor id 10
+2023-04-26 15:47:31 INFO  [main] c.e.p.service.ContributorTypeService - Creating a ContributorType with the details com.epam.programmanagement.dto.ContributorTypeDto@4abfdad1
+2023-04-26 15:47:31 INFO  [main] c.e.p.service.ContributorTypeService - Delete ContributorType with contributor id 100
+2023-04-26 15:47:31 INFO  [main] c.e.p.service.ContributorTypeService - Delete ContributorType with contributor id 1
+2023-04-26 15:47:31 INFO  [main] c.e.p.service.ContributorTypeService - Update ContributorType with contributor id 100com.epam.programmanagement.dto.ContributorTypeDto@540accf4
+2023-04-26 15:47:31 INFO  [main] c.e.p.service.ContributorTypeService - Update ContributorType with contributor id 2com.epam.programmanagement.dto.ContributorTypeDto@346ea2ed
+2023-04-26 15:47:31 INFO  [main] c.e.p.service.ContributorTypeService - Display all the programs
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - designation Junior Software Engineer
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - get the program 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - delete participant based on id 1 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - get the program 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - delete participant based on id 2 2
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - get the program 2
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - dispaly participant based on id 1 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - get the program 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - dispaly participant based on id 2 2
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - get the program 2
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - Business unit HCLS DElivery
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - Primary skill Java
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - Resource manager Shakti Vyas
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - get the program 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - Create the participant ParticipantDto(participantId=1, participantName=sneka, contributorType=winner, designation=null, program=[Program [programId=1, category=null, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:47:32.279822]], points=3, addedBy=sneka, awardedDate=null, lastModifiedAt=null, resourceManager=null, businessUnit=null, primarySkill=null, subSkill=null, email=null) 
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - Contributor type winner
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - Display all the Participants 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - update participant based on id 1 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - ParticipantDto(participantId=1, participantName=sneka, contributorType=winner, designation=null, program=[Program [programId=1, category=null, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:47:32.304947200]], points=3, addedBy=sneka, awardedDate=null, lastModifiedAt=null, resourceManager=null, businessUnit=null, primarySkill=null, subSkill=null, email=null)
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - get the program 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - update participant based on id 2 2
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - ParticipantDto(participantId=1, participantName=sneka, contributorType=winner, designation=null, program=[Program [programId=1, category=null, title=DSA, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=2023-04-26T15:47:32.304947200]], points=3, addedBy=sneka, awardedDate=null, lastModifiedAt=null, resourceManager=null, businessUnit=null, primarySkill=null, subSkill=null, email=null)
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ParticipantService - get the program 2
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramService - Program Details for the program id 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramService - Display all the programs
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramService - Update Program with program id 100ProgramDto(programId=2, category=Incubation, title=null, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=null, participant=null)
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramService - Update Program with program id 2ProgramDto(programId=2, category=Incubation, title=null, description=DataStructures, addedBy=Alex, startDate=null, endDate=null, weightage=15, createdAt=null, participant=null)
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramService - Delete Program with program id 100
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramService - Delete Program with program id 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramService - Creating a Program with the details ProgramDto(programId=2, category=Incubation, title=null, description=DataStructures, addedBy=Vahini, startDate=null, endDate=null, weightage=15, createdAt=null, participant=null)
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramService - Program Details for the program id 10
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramService - Display all the programs
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramTemplateService - Display all the programTemplate
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramTemplateService - Display all the programTemplate
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramTemplateService - Creating a ProgramTemplate with the details com.epam.programmanagement.dto.ProgramTemplateDto@3c16cd6c
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramTemplateService - ProgramTemplate Details for the programTemplate id 10
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramTemplateService - Delete Program with program id 100
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramTemplateService - Delete Program with program id 1
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramTemplateService - Update Program with program id 100com.epam.programmanagement.dto.ProgramTemplateDto@347d6885
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramTemplateService - Update Program with program id 2com.epam.programmanagement.dto.ProgramTemplateDto@7afaf602
+2023-04-26 15:47:32 INFO  [main] c.e.p.service.ProgramTemplateService - ProgramTemplate Details for the programTemplate id 1
+2023-04-26 15:58:03 INFO  [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-26 15:58:03 INFO  [Thread-7] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-26 15:58:03 INFO  [Thread-7] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 15:58:03 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2023-04-26 15:58:03 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2023-04-26 15:58:03 INFO  [restartedMain] c.e.p.ProgramManagement - Starting ProgramManagement using Java 19 with PID 20420 (D:\Leaderboard\program-management-service\target\classes started by Divyam_Sethi in D:\Leaderboard\program-management-service)
+2023-04-26 15:58:03 INFO  [restartedMain] c.e.p.ProgramManagement - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 15:58:03 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 15:58:03 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 4 JPA repository interfaces.
+2023-04-26 15:58:04 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-04-26 15:58:04 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-26 15:58:04 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-26 15:58:04 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-26 15:58:04 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 291 ms
+2023-04-26 15:58:04 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 15:58:04 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-04-26 15:58:04 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2023-04-26 15:58:05 ERROR [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "192.168.1.9", user "postgres", database "leaderboard", no encryption
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.Driver.makeConnection(Driver.java:434) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.Driver.connect(Driver.java:291) ~[postgresql-42.5.1.jar:42.5.1]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:284) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:177) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:36) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:255) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:230) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:218) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:138) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1350) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1421) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
+	at com.epam.programmanagement.ProgramManagement.main(ProgramManagement.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
+	Suppressed: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "192.168.1.9", user "postgres", database "leaderboard", no encryption
+		at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659) ~[postgresql-42.5.1.jar:42.5.1]
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.5.1.jar:42.5.1]
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:244) ~[postgresql-42.5.1.jar:42.5.1]
+		... 51 common frames omitted
+2023-04-26 15:58:05 WARN  [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "192.168.1.9", user "postgres", database "leaderboard", no encryption
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.Driver.makeConnection(Driver.java:434) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.Driver.connect(Driver.java:291) ~[postgresql-42.5.1.jar:42.5.1]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:284) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:177) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:36) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:255) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:230) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:218) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:138) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1350) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1421) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
+	at com.epam.programmanagement.ProgramManagement.main(ProgramManagement.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
+	Suppressed: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "192.168.1.9", user "postgres", database "leaderboard", no encryption
+		at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659) ~[postgresql-42.5.1.jar:42.5.1]
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.5.1.jar:42.5.1]
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:244) ~[postgresql-42.5.1.jar:42.5.1]
+		... 51 common frames omitted
+2023-04-26 15:58:05 ERROR [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2023-04-26 15:58:05 WARN  [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2023-04-26 15:58:05 INFO  [restartedMain] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-26 15:58:05 INFO  [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 15:58:05 ERROR [restartedMain] o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
+	at com.epam.programmanagement.ProgramManagement.main(ProgramManagement.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:267) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:230) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:218) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:138) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1350) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1421) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 19 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:147) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:60) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:244) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:36) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:255) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	... 34 common frames omitted
+2023-04-26 17:30:05 INFO  [restartedMain] c.e.p.ProgramManagement - Starting ProgramManagement using Java 19 with PID 20420 (D:\Leaderboard\program-management-service\target\classes started by Divyam_Sethi in D:\Leaderboard\program-management-service)
+2023-04-26 17:30:05 INFO  [restartedMain] c.e.p.ProgramManagement - No active profile set, falling back to 1 default profile: "default"
+2023-04-26 17:30:05 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 17:30:05 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 4 JPA repository interfaces.
+2023-04-26 17:30:05 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2023-04-26 17:30:05 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-26 17:30:05 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-26 17:30:05 INFO  [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-26 17:30:05 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 366 ms
+2023-04-26 17:30:05 INFO  [restartedMain] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 17:30:05 WARN  [restartedMain] org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-04-26 17:30:05 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2023-04-26 17:30:06 ERROR [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "192.168.1.9", user "postgres", database "leaderboard", no encryption
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.Driver.makeConnection(Driver.java:434) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.Driver.connect(Driver.java:291) ~[postgresql-42.5.1.jar:42.5.1]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:284) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:177) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:36) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:255) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:230) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:218) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:138) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1350) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1421) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
+	at com.epam.programmanagement.ProgramManagement.main(ProgramManagement.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
+	Suppressed: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "192.168.1.9", user "postgres", database "leaderboard", no encryption
+		at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659) ~[postgresql-42.5.1.jar:42.5.1]
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.5.1.jar:42.5.1]
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:244) ~[postgresql-42.5.1.jar:42.5.1]
+		... 51 common frames omitted
+2023-04-26 17:30:06 WARN  [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "192.168.1.9", user "postgres", database "leaderboard", no encryption
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:247) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.Driver.makeConnection(Driver.java:434) ~[postgresql-42.5.1.jar:42.5.1]
+	at org.postgresql.Driver.connect(Driver.java:291) ~[postgresql-42.5.1.jar:42.5.1]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:284) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:177) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:36) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:255) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:230) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:218) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:138) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1350) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1421) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
+	at com.epam.programmanagement.ProgramManagement.main(ProgramManagement.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
+	Suppressed: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "192.168.1.9", user "postgres", database "leaderboard", no encryption
+		at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:659) ~[postgresql-42.5.1.jar:42.5.1]
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:180) ~[postgresql-42.5.1.jar:42.5.1]
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:244) ~[postgresql-42.5.1.jar:42.5.1]
+		... 51 common frames omitted
+2023-04-26 17:30:06 ERROR [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2023-04-26 17:30:06 WARN  [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2023-04-26 17:30:06 INFO  [restartedMain] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-26 17:30:06 INFO  [restartedMain] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 17:30:06 ERROR [restartedMain] o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1130) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:905) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.4.jar:6.0.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302) ~[spring-boot-3.0.2.jar:3.0.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291) ~[spring-boot-3.0.2.jar:3.0.2]
+	at com.epam.programmanagement.ProgramManagement.main(ProgramManagement.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.2.jar:3.0.2]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:267) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:230) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:218) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:138) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1350) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1421) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797) ~[spring-beans-6.0.4.jar:6.0.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747) ~[spring-beans-6.0.4.jar:6.0.4]
+	... 19 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'javax.persistence.jdbc.url', 'hibernate.connection.url', or 'hibernate.dialect')
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:147) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:60) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:244) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:36) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:255) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
+	... 34 common frames omitted
